@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoee</title>
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/853dbe43c5.js" crossorigin="anonymous"></script>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="Assets/style.css">
+</head>
+
+<body>
+    <!-- navbar-top -->
+    <nav class="bg-body-tertiary d-flex justify-content-between px-5 pt-2 border-bottom  d-none d-md-flex d-lg-flex"
+        style="height: 40px;">
+        <div class="">
+            <p class="fs-6 text-body-tertiary">Free Shipping on over 100$</p>
+        </div>
+
+        <div class="">
+            <div class="d-flex justify-content-center align-items-center container">
+                <p class="dropdown-toggle text-body-tertiary px-2 border-end" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    ENG
+                </p>
+                <p class="dropdown-toggle text-body-tertiary px-2 border-end" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    USD$
+                </p>
+                <p class="dropdown-toggle text-body-tertiary px-2 border-end" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Login
+                </p>
+            </div>
+        </div>
+    </nav>
+
+    <!-- navbar -->
+    <nav class="navbar bg-body-tertiary px-lg-5 px-md-3 px-sm-1" style="height: 80px;">
+        <div class="container-fluid">
+
+            <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <h3 class="fs-2 text fst-italic">Shoee</h3>
+
+            <div class="nav_ico">
+                <i class="fa-solid fa-cart-shopping px-2"></i>
+                <i class="fa-solid fa-magnifying-glass px-2"></i>
+            </div>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <div class="d-flex d-md-none d-lg-none position-absolute bottom-0">
+                        <p class="dropdown-toggle text-body-tertiary px-1 border-end" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            ENG
+                        </p>
+                        <p class="dropdown-toggle text-body-tertiary px-1 border-end" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            USD$
+                        </p>
+                        <p class="dropdown-toggle text-body-tertiary px-1 border-end" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Login
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- top-banner slide -->
+    <div id="carouselExample" class="carousel slide primary-bg">
+        <div class="carousel-inner container">
+            <div class="carousel-item active">
+                <div class="" style="height: auto;">
+                    <div class="container">
+                        <div class="row align-items-start">
+                            <div class="col-lg-6" style="padding-top: 8rem;">
+                                <h1 class="primary-color">New Arrivals</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, culpa? Maxime
+                                    error natus laboriosam asperiores praesentium repellat, ducimus aperiam sed delectus
+                                    corporis exercitationem, nam iure, vero magnam itaque vel soluta!</p>
+                                <a class="text-decoration-none primary-color" href="#">View Collections <i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="Assets/Images/carausel 1.png" class="img-fluid" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="" style="height: auto;">
+                    <div class="container">
+                        <div class="row align-items-start">
+                            <div class="col-lg-6" style="padding-top: 8rem;">
+                                <h1 class="primary-color">Explore Top Selling</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, culpa? Maxime
+                                    error natus laboriosam asperiores praesentium repellat, ducimus aperiam sed delectus
+                                    corporis exercitationem, nam iure, vero magnam itaque vel soluta!</p>
+                                <a class="text-decoration-none primary-color" href="#">View Collections <i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="Assets/Images/carausel 2.png" class="img-fluid" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev mx-3 d-none d-md-block d-lg-block" type="button"
+            data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev" aria-hidden="true"><i
+                    class="fa-solid fa-chevron-left text-black border border-secondary rounded-circle p-2"></i></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next mx-3 d-none d-md-block d-lg-block" type="button"
+            data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next" aria-hidden="true"><i
+                    class="fa-solid fa-chevron-right text-black border border-secondary rounded-circle p-2"></i></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- collections section -->
+    <section id="collections" class="mt-5 py-2">
+        <div class="container-fluid text-center">
+            <h1>Our Collections</h1>
+            <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ebitis temporibus
+                doloribus.</p>
+        </div>
+        <div class="container d-flex justify-content-between">
+            <button type="button" class="btn btn-light">
+                <i class="fa-solid fa-bars"></i> Filter
+            </button>
+
+            <div class="btn-group">
+                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Default Sorting
+                </button>
+            </div>
+        </div>
+        <div class="container mt-5 text-center d-flex justify-content-evenly flex-wrap">
+            <div class="card mt-2" style="width: 18rem;">
+                <img src="Assets/Images/carausel 1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="fw-semibold">Jungle Moc Slip-on</h5>
+                  <p class="primary-color">$300.00</p>
+                  <span><i class="fa-solid fa-star rating-star"></i><i class="fa-solid fa-star rating-star"></i><i class="fa-solid fa-star rating-star"></i><i class="fa-solid fa-star rating-star"></i><i class="fa-regular fa-star"></i></span>
+                </div>
+            </div>
+
+            <div class="card mt-2" style="width: 18rem;">
+                <img src="Assets/Images/carausel 1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="fw-semibold">Jungle Moc Slip-on</h5>
+                  <p class="primary-color">$300.00</p>
+                  <span><i class="fa-solid fa-star rating-star"></i><i class="fa-solid fa-star rating-star"></i><i class="fa-solid fa-star rating-star"></i><i class="fa-solid fa-star rating-star"></i><i class="fa-regular fa-star"></i></span>
+                </div>
+            </div>
+
+            <div class="card mt-2" style="width: 18rem;">
+                <img src="Assets/Images/carausel 1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="fw-semibold">Jungle Moc Slip-on</h5>
+                  <p class="primary-color">$300.00</p>
+                  <span><i class="fa-solid fa-star rating-star"></i><i class="fa-solid fa-star rating-star"></i><i class="fa-solid fa-star rating-star"></i><i class="fa-solid fa-star rating-star"></i><i class="fa-regular fa-star"></i></span>
+                </div>
+            </div>
+
+            <div class="card mt-2" style="width: 18rem;">
+                <img src="Assets/Images/carausel 1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="fw-semibold">Jungle Moc Slip-on</h5>
+                  <p class="primary-color">$300.00</p>
+                  <span><i class="fa-solid fa-star rating-star"></i><i class="fa-solid fa-star rating-star"></i><i class="fa-solid fa-star rating-star"></i><i class="fa-solid fa-star rating-star"></i><i class="fa-regular fa-star"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mt-4">
+            <button type="button" class="btn fw-semibold" style="border: #3DB290 solid 1px; color: black;">View More</button>
+        </div>
+    </section>
+
+    <!-- middle banner -->
+    <section id="middle-banner" class="primary-bg mt-4">
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col-lg-6" style="padding-top: 8rem;">
+                    <h1 class="fw-semibold">2023 Nike</h1>
+                    <h1 class="fw-semibold">The Best Classical</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, culpa? Maxime
+                        error natus laboriosam asperiores praesentium repellat, ducimus aperiam sed delectus
+                        corporis exercitationem, nam iure, vero magnam itaque vel soluta!</p>
+                    <button class="btn primary-button" type="button">Order Now</button>
+                </div>
+                <div class="col-lg-6">
+                    <img src="Assets/Images/carausel 1.png" class="img-fluid" alt="...">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- promotion section -->
+    <section>
+        <div class="container py-5 d-flex flex-wrap justify-content-evenly">
+            <div class="card border-0" style="width: 18rem;">
+                <img src="Assets/Images/promo-1.jpg" class="card-img-top promo-img" alt="...">
+                <div class="card-body">
+                  <p class="fs-6 fw-bold text">Get 20% OFF on Nike Uomo</p>
+                  <p class="" style="font-size: 14px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="" class="text-decoration-none primary-color">Read More...</a>  
+                </div>
+            </div>
+
+            <div class="card border-0" style="width: 18rem;">
+                <img src="Assets/Images/promo-2.jpg" class="card-img-top promo-img" alt="...">
+                <div class="card-body">
+                  <p class="fs-6 fw-bold text">Best Nike Sports Shoe Ever!</p>
+                  <p class="" style="font-size: 14px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="" class="text-decoration-none primary-color">Read More...</a>  
+                </div>
+            </div>
+
+            <div class="card border-0" style="width: 18rem;">
+                <img src="Assets/Images/promo-3.jpg" class="card-img-top promo-img" alt="...">
+                <div class="card-body">
+                  <p class="fs-6 fw-bold text">Top 20 Running Shoes for Men</p>
+                  <p class="" style="font-size: 14px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="" class="text-decoration-none primary-color">Read More...</a>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- bottom banner -->
+    <section id="bottom-banner" class="primary-bg mt-4">
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col-lg-6">
+                    <img src="Assets/Images/carausel 1.png" class="img-fluid" alt="...">
+                </div>
+                <div class="col-lg-6" style="padding-top: 8rem;">
+                    <h1 class="fw-semibold">Nike Metcon 2</h1>
+                    <span><i class="fa-solid fa-star rating-star"></i><i class="fa-solid fa-star rating-star"></i><i class="fa-solid fa-star rating-star"></i><i class="fa-solid fa-star rating-star"></i><i class="fa-regular fa-star"></i></span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, culpa? Maxime
+                        error natus laboriosam asperiores praesentium repellat, ducimus aperiam sed delectus
+                        corporis exercitationem, nam iure, vero magnam itaque vel soluta!</p>
+                    <button class="btn primary-button" type="button">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer top -->
+    <section id="footer-top" class="mt-5">
+        <div class="container text-left py-4">
+            <div class="row align-items-start">
+              <div class="col-lg-3 col-md-5 mt-3">
+                <h5 class="fw-bold">Company</h5>
+                <div class="d-flex flex-column">
+                  <a class="text-decoration-none text-reset py-1" href="">About</a>
+                  <a class="text-decoration-none text-reset py-1" href="">Our Shops</a>
+                  <a class="text-decoration-none text-reset py-1" href="">News</a>
+                  <a class="text-decoration-none text-reset py-1" href="">Delivery</a>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-5 mt-3">
+                <h5 class="fw-bold">Help</h5>
+                <div class="d-flex flex-column">
+                    <a class="text-decoration-none text-reset py-1" href="">Contact Us</a>
+                    <a class="text-decoration-none text-reset py-1" href="">F.A.Q</a>
+                    <a class="text-decoration-none text-reset py-1" href="">Help</a>
+                    <a class="text-decoration-none text-reset py-1" href="">Terms</a>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-5 mt-3">
+                <h5 class="fw-bold">Get Social</h5>
+                <div class="d-flex flex-column">
+                    <a class="text-decoration-none text-reset py-1" href=""><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+                    <a class="text-decoration-none text-reset py-1" href=""><i class="fa-brands fa-x-twitter"></i> Twitter</a>
+                    <a class="text-decoration-none text-reset py-1" href=""><i class="fa-brands fa-instagram"></i> Instagram</a>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-5 mt-3">
+                <h5 class="fw-bold">Contact</h5>
+                <p>7/4 Fire Bridge Road</p>
+                <p>Khulna. 9100, Bangladesh</p>
+                <p><span class="fw-bold">Phone: </span>123-456-789</p>
+                <p><span class="fw-bold">Email: </span>support&commat;mail.com</p>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- footer bottom -->
+    <section>
+        <div class="footer-color" style="height: 12rem;">
+            <div class="container d-flex flex-wrap justify-content-between" style="padding-top: 5rem;">
+                <p class="text-white-50">Copyright 2023.All Rights Reserved</p>
+                <div class="input-group mb w-25 h-25">
+                    <input type="text" class="form-control" placeholder="Subscribe to our News letter" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fa-solid fa-arrow-right primary-color"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

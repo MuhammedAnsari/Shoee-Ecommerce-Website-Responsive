@@ -1,0 +1,50 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* colors */
+.primary-color{
+    color: #3DB290;
+}
+
+.primary-button{
+    background-color: #3DB290;
+    color: #fff;
+}
+
+.primary-bg{
+    background-color: #eff1f8;
+}
+
+.background-color{
+    color: #EEF1F8;
+}
+
+.footer-color{
+    background-color: #444444;
+}
+
+/* body */
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Merriweather', serif;
+}
+
+.rating-star{
+    color: #ffc000;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.promo-img{
+    height: 250px;
+}
